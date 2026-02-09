@@ -1,0 +1,177 @@
+:root{
+  --bg1:#f7f8ff;
+  --bg2:#eef6ff;
+
+  --text:#0b1220;
+  --muted:#4b5563;
+
+  --line: rgba(15, 23, 42, .10);
+
+  --accent:#2b7cff;
+  --accent2:#7c3aed;
+
+  --radius: 22px;
+  --shadow: 0 18px 55px rgba(15, 23, 42, .14);
+
+  --font: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
+          "Apple Color Emoji","Segoe UI Emoji";
+  --pixel: "Press Start 2P", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+}
+
+html,body{height:100%}
+*{box-sizing:border-box}
+
+:root{
+  --bg1:#f7f8ff;
+  --bg2:#eef6ff;
+  --text:#0b1220;
+  --muted:#4b5563;
+  --radius:22px;
+  --shadow:0 18px 55px rgba(15,23,42,.14);
+  --font: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+}
+
+body{
+  margin:0;
+  font-family:var(--font);
+  color:var(--text);
+  min-height:100vh;
+  overflow-x:hidden;
+
+  /* ✅ これが本命：画像を「画面にびっちり」 */
+  background: url("./portal-bg-hq.png") center 45% / cover no-repeat fixed;
+}
+
+/* ✅ 画像の上に“色味だけ”足して馴染ませる（四角は出ない） */
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  z-index:-1;
+
+
+  background:
+  
+
+
+
+}
+
+/* 🚫 body::after は使わない（四角の原因になりやすい） */
+
+
+
+
+/* ---------- layout ---------- */
+.wrap{
+  max-width:900px;
+  margin:0 auto;
+  padding:36px 18px 40px;
+
+  /* ほんの少しだけ中央寄り（上に寄りすぎない） */
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-start;
+}
+
+/* タイトルは上、でも被りづらい位置に */
+.header{
+  margin-top:24px;
+  margin-bottom:34px;
+  text-align:center;
+}
+
+.title{
+  margin:0;
+  font-size:clamp(54px, 7vw, 86px); /* もっとでかく */
+  letter-spacing:-.04em;
+  font-weight:900;
+  color:#0b1220;
+  text-shadow:
+    0 1px 0 rgba(255,255,255,.9),
+    0 18px 55px rgba(124,58,237,.14);
+}
+
+/* Teleportボタンを“少し真ん中寄り”に */
+.panel{
+  width:min(920px, 92vw);
+  margin-top:88px;            /* ←ここで微調整（少しだけ中央寄り） */
+  text-align:center;
+}
+
+.hidden{display:none}
+.muted{color:var(--muted)}
+
+.status{
+  margin:14px 0 0;
+  font-size:13px;
+  color:rgba(11,18,32,.65);
+}
+
+/* ---------- button ---------- */
+.btn{
+  border: 1px solid rgba(37,99,235,.18);
+  background: rgba(255,255,255,.70);
+  color: var(--text);
+  padding: 12px 16px;
+  border-radius: 18px;
+  cursor:pointer;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:52px;
+  text-decoration:none;
+  transition: transform .10s ease, box-shadow .25s ease;
+}
+
+.btn:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 18px 45px rgba(37,99,235,.14);
+}
+.btn:active{ transform: translateY(0) scale(.99); }
+
+/* Teleportボタン：でかく＆文字もでかく */
+.btn.xl{
+  width:min(980px, 92vw);
+  min-height:96px;            /* でかい */
+  padding:28px 22px;
+
+  font-family: var(--pixel);  /* ピクセルはボタンだけ */
+  font-size:22px;             /* 文字でかく */
+  line-height:1.25;
+  letter-spacing:.08em;
+
+  border:1px solid rgba(124,58,237,.26);
+  color:#061024;
+  background:
+    radial-gradient(130% 200% at 50% 0%, rgba(255,255,255,.74), rgba(255,255,255,.22)),
+    linear-gradient(135deg, rgba(37,99,235,.26), rgba(124,58,237,.20));
+  box-shadow:
+    0 20px 60px rgba(37,99,235,.16),
+    0 0 0 8px rgba(124,58,237,.07);
+}
+
+.btn.xl:hover{
+  transform: translateY(-3px);
+  box-shadow:
+    0 28px 80px rgba(37,99,235,.20),
+    0 0 0 10px rgba(124,58,237,.09);
+}
+
+/* ---------- footer ---------- */
+.footer{
+  position:fixed;
+  left:0;
+  right:0;
+  bottom:16px;               /* ちゃんと一番下へ */
+  text-align:center;
+  pointer-events:none;
+}
+
+.footer .muted{
+  font-size:12px;
+  opacity:.75;
+}

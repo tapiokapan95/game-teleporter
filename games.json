@@ -1,0 +1,202 @@
+[
+  {
+    "title": "Wordle",
+    "url": "https://www.nytimes.com/games/wordle/index.html",
+    "minutes": 3,
+    "tags": ["word", "puzzle", "daily"],
+    "description": "Guess the five-letter word in six tries.",
+    "safe": true,
+    "sketchy": false,
+    "weight": 1
+  },
+  {
+    "title": "2048",
+    "url": "https://play2048.co/",
+    "minutes": 3,
+    "tags": ["puzzle", "numbers", "merge"],
+    "description": "Slide tiles to combine numbers and reach 2048.",
+    "safe": true,
+    "sketchy": false,
+    "weight": 1
+  },
+  {
+    "title": "Perfect Circle",
+    "url": "https://neal.fun/perfect-circle/",
+    "minutes": 1,
+    "tags": ["casual", "challenge", "skill"],
+    "description": "Draw a circle and see how perfect it is.",
+    "safe": true,
+    "sketchy": false,
+    "weight": 1
+  },
+  {
+    "title": "Stimulation Clicker",
+    "url": "https://neal.fun/stimulation-clicker/",
+    "minutes": 3,
+    "tags": ["clicker", "satire", "casual"],
+    "description": "Click to accumulate stimulation in a satirical idle game.",
+    "safe": true,
+    "sketchy": false,
+    "weight": 1
+  },
+  {
+    "title": "Free Rice",
+    "url": "https://freerice.com/",
+    "minutes": 3,
+    "tags": ["trivia", "vocab", "charity"],
+    "description": "Answer vocabulary questions to donate rice through sponsors.",
+    "safe": true,
+    "sketchy": false,
+    "weight": 1
+  },
+  {
+    "title": "Infinite Craft",
+    "url": "https://neal.fun/infinite-craft/",
+    "minutes": 5,
+    "tags": ["crafting", "sandbox", "casual"],
+    "description": "Combine elements to discover new creations.",
+    "safe": true,
+    "sketchy": false,
+    "weight": 1
+  },
+  {
+    "title": "The Password Game",
+    "url": "https://neal.fun/password-game/",
+    "minutes": 5,
+    "tags": ["puzzle", "logic", "humor"],
+    "description": "Satisfy increasingly absurd rules to create a password.",
+    "safe": true,
+    "sketchy": false,
+    "weight": 1
+  },
+  {
+    "title": "Little Alchemy 2",
+    "url": "https://littlealchemy2.com/",
+    "minutes": 5,
+    "tags": ["crafting", "puzzle", "sandbox"],
+    "description": "Combine elements to unlock new items and ideas.",
+    "safe": true,
+    "sketchy": false,
+    "weight": 1
+  },
+  {
+    "title": "Cookie Clicker",
+    "url": "https://orteil.dashnet.org/cookieclicker/",
+    "minutes": 3,
+    "tags": ["idle", "clicker", "incremental"],
+    "description": "Click to bake cookies and build an absurd cookie empire.",
+    "safe": true,
+    "sketchy": false,
+    "weight": 1
+  },
+  {
+    "title": "The Evolution of Trust",
+    "url": "https://ncase.me/trust/",
+    "minutes": 5,
+    "tags": ["strategy", "interactive", "education"],
+    "description": "Explore how trust evolves through interactive scenarios.",
+    "safe": true,
+    "sketchy": false,
+    "weight": 1
+  },
+  {
+    "title": "Skribbl",
+    "url": "https://skribbl.io/",
+    "minutes": 5,
+    "tags": ["multiplayer", "drawing", "party"],
+    "description": "Draw prompts while others guess in a quick party game.",
+    "safe": true,
+    "sketchy": false,
+    "weight": 1
+  },
+  {
+    "title": "Gartic Phone",
+    "url": "https://garticphone.com/",
+    "minutes": 5,
+    "tags": ["multiplayer", "drawing", "party"],
+    "description": "Pass drawings and prompts through a hilarious chain.",
+    "safe": true,
+    "sketchy": false,
+    "weight": 1
+  },
+  {
+    "title": "The Wiki Game",
+    "url": "https://www.thewikigame.com/",
+    "minutes": 3,
+    "tags": ["knowledge", "challenge", "web"],
+    "description": "Navigate Wikipedia from a start page to a target page.",
+    "safe": true,
+    "sketchy": false,
+    "weight": 1
+  },
+  {
+    "title": "GeoGuessr",
+    "url": "https://www.geoguessr.com/",
+    "minutes": 5,
+    "tags": ["geography", "map", "challenge"],
+    "description": "Guess locations from Street View scenes around the world.",
+    "safe": true,
+    "sketchy": false,
+    "weight": 1
+  },
+  {
+    "title": "Seterra",
+    "url": "https://www.seterra.com/",
+    "minutes": 3,
+    "tags": ["geography", "quiz", "education"],
+    "description": "Test your geography skills with quick map quizzes.",
+    "safe": true,
+    "sketchy": false,
+    "weight": 1
+  },
+  {
+    "title": "HexGL",
+    "url": "https://hexgl.bkcore.com/",
+    "minutes": 3,
+    "tags": ["racing", "arcade", "3d"],
+    "description": "Race futuristic ships in a fast arcade track.",
+    "safe": true,
+    "sketchy": false,
+    "weight": 1
+  },
+  {
+    "title": "Jstris",
+    "url": "https://jstris.jezevec10.com/",
+    "minutes": 3,
+    "tags": ["tetris", "arcade", "skill"],
+    "description": "Play fast-paced Tetris with modern modes and stats.",
+    "safe": true,
+    "sketchy": false,
+    "weight": 1
+  },
+  {
+    "title": "Lichess",
+    "url": "https://lichess.org/",
+    "minutes": 5,
+    "tags": ["chess", "strategy", "board"],
+    "description": "Play chess online with puzzles and quick games.",
+    "safe": true,
+    "sketchy": false,
+    "weight": 1
+  },
+  {
+    "title": "Chess.com",
+    "url": "https://www.chess.com/play",
+    "minutes": 5,
+    "tags": ["chess", "strategy", "board"],
+    "description": "Play chess online with quick match options.",
+    "safe": true,
+    "sketchy": false,
+    "weight": 1
+  },
+  {
+    "title": "WikiTrivia",
+    "url": "https://wikitrivia.tomjwatson.com/",
+    "minutes": 3,
+    "tags": ["trivia", "history", "quiz"],
+    "description": "Sort historical events in the correct timeline order.",
+    "safe": true,
+    "sketchy": false,
+    "weight": 1
+  }
+]

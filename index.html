@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Jump to a random web game." />
+  <title>Game Teleporter</title>
+
+  <!-- Pixel font (button only). If offline, it falls back safely. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="icon" href="./favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="./icon-192.png">
+<link rel="apple-touch-icon" href="./icon-192.png">
+<link rel="manifest" href="./site.webmanifest">
+<meta name="theme-color" content="#eef6ff">
+
+</head>
+
+<body>
+  <main class="wrap">
+    <header class="header">
+      <h1 class="title">Game Teleporter</h1>
+    </header>
+
+    <section class="panel" aria-label="Controls">
+      <button id="btn-roll" class="btn xl" type="button">
+        Teleport me to a game
+      </button>
+      <p id="status" class="status hidden" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="muted">Not affiliated with linked sites. © <span id="year"></span></p>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
